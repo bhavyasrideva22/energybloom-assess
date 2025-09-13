@@ -22,10 +22,21 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+        },
+        emotion: {
+          warm: "hsl(var(--emotion-warm))",
+          calm: "hsl(var(--emotion-calm))",
+          energy: "hsl(var(--emotion-energy))",
+          balance: "hsl(var(--emotion-balance))",
+        },
+        surface: {
+          DEFAULT: "hsl(var(--surface))",
+          soft: "hsl(var(--surface-soft))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
